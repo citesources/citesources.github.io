@@ -1,0 +1,331 @@
+    /* Entire page */
+	
+	body {
+	  background: #e2e2d6;
+	  min-width:400px;
+	  max-width:1200px;
+	  padding:0;
+	  margin:0 auto 0;
+    }
+	
+	#overall {
+	  background-color: #f6f6f6;
+	  padding:0;
+	  margin: 0;
+	}
+ 
+    /* Header & Menu */
+ 
+	header {
+	  background-color: #f6f6f6;
+	  height: 250px;
+	  width: 100%;
+	  margin:0;
+	  padding:0;
+	}
+	
+    .header1 {
+	  background-image:url(Header.jpg);
+	  background-size: cover;
+	  background-position: 50% 50%;
+	  margin:0px;
+	  padding:0px;
+	}
+ 
+	#framed {
+	  height: 250px;
+      width: 100%;
+      border:0;
+	  margin:0;
+	  padding:0;
+	  background-color: #006f62;
+    }
+ 
+ 	#headcontent1 {
+	  height:50px;
+	  width: 100%;
+	  background: #006f62;
+	  opacity: 0.75;
+      font: 17px Calibri;
+	  color:#fff;
+	  margin:0px;
+	  text-align:right;
+	  padding: 5px 10px 0px 0px;
+	}
+	
+	#headcontent1 a:link {
+	  color:#fff;
+	  text-decoration: none;
+	}
+	
+    #headcontent1 a:visited {
+	  color:#fff;
+	  text-decoration: none;
+	}
+	
+	#headcontent1 a:hover {
+	  color:#fff;
+	  text-decoration: underline;
+	}
+	
+	#headcontent1 a:active {
+	  color:#fff;
+	  text-decoration: none;
+	}
+
+	#headcontent2 {
+	  height:125px;
+	  width: 100%;
+	  background: #006f62;
+	  opacity: 0.75;
+      font: 51px Calibri;
+	  color:#fff;
+	  padding:61px 0px 0px 20px;
+	  margin:0px;
+	}
+	
+	.menu {
+	  height:100%	;
+	  width:100%;
+	  padding: 10px;
+      margin:0;	
+	  background: #006f62;
+	}
+	
+	#rst { 
+	  margin-top:5px;	
+      float: left;
+    }
+	
+	#bt{
+			  margin-top:5px;	
+      float: right;
+	}	
+	
+	#main {
+	  Margin: 0px 0 0 0;
+      Padding: 0px;
+	  background-color: red;
+	  
+	}
+
+	.myselect {
+      background: #ecf8f6;
+      width: 100%;
+      font: 17px Calibri;
+      padding: 12px;
+      border: 1px solid #a2dbd2;
+      border-radius: 4px;
+    }
+
+    /*IE*/
+    .myselect::-ms-expand {
+      display: none;
+    }
+
+    .myselect select:focus {
+      outline: 0;
+      border-color: #7bbaff;
+      box-shadow: 0 0 0 0px rgba(0,111,98,255);
+    }
+
+    h1 {
+      font-size: 1.8rem;
+    }
+	
+	* {
+	  box-sizing: border-box;
+    }
+    
+	.content {
+	  margin:0px;
+      padding:0px 15px 10px 15px;
+      background-color: #f6f6f6;
+      overflow: hidden;
+	}
+	
+	.intro {
+	  float:left;
+	  background:#fff;
+	  font: 17px Calibri;
+      width: 65%;
+	  margin: 0% 1% 0% 1%;
+      padding: 12px 24px 12px 24px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+	}
+	
+		.sidebar {
+	  float:left;
+	  background:#fff;
+	  font: 17px Calibri;
+      width: 31%;
+	  margin: 0% 1% 0% 1%;
+      padding: 12px 24px 12px 24px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+	}
+	
+	.forminputs {
+      padding:10px 0px 10px 0px;
+      background-color: #f6f6f6;
+      overflow: hidden;
+    }
+	
+
+	
+	.forminputs1 {
+	  float:left;
+      background-color: #f6f6f6;
+      overflow: hidden;
+	  width:32%;
+    }
+	
+	.forminputs2 {
+	  float:left;
+      background-color: #f6f6f6;
+      overflow: hidden;
+	  width:32%;
+	  margin: 0% 2% 0% 2%;
+    }
+	
+	.forminputsA {
+	  float:left;
+      background-color: #f6f6f6;
+      overflow: hidden;
+	  width:49%;
+	  margin: 0% 1% 0% 0%;
+    }
+	
+	.forminputsB {
+	  float:left;
+      background-color: #f6f6f6;
+      overflow: hidden;
+	  width:49%;
+	  margin: 0% 0% 0% 1%;
+    }
+	
+    input[type=text], textarea, select {
+      font: 17px Calibri;
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+	  outline: none;
+    }
+	
+	select:focus {
+		border: 1px solid #006f62;
+		box-shadow: 0;
+	}
+	
+	textarea:focus, input:focus{
+    outline: none;
+	border: 1px solid #006f62;
+}
+ 
+
+	#notes, textarea{
+		
+	margin:0px;
+	display: block;
+	}
+	
+ 
+    input[type=button]{ 
+      font: 17px Calibri;
+      width: auto;
+      float: right;
+      cursor: pointer;
+      padding: 7px;
+    }
+	
+	input[type=checkbox]{
+
+
+  margin: 5px 5px 0px 0px;
+
+  
+	}
+	
+	.files {
+	  background : #f9f9fb;
+      font: 17px Calibri;
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+	  outline: none;
+	  margin:10px 0px 10px 0px;
+	}
+	
+	
+	.files input[type=text] {
+	padding: 0px 5px 0px 5px;
+	width:70px;
+	}
+	
+	.files1 {
+	width:50%;	
+		float:left;
+	text-align: left;
+	}
+	
+	.files2 {
+	width:50%;	
+	float:left;
+	
+	}
+	
+	.files1 input {
+	margin-right:10px;
+		padding:0;
+
+	}
+	
+	.files2 input {
+	width:50px;
+		padding:0;
+	
+	}
+	
+	#file {
+		
+	float:left;
+	}
+	
+	#dateaccess {
+	  width:100%;
+	  padding: 10px 0px 10px 0px;
+	  overflow: hidden;
+	  margin:0;
+	}
+	
+	#monyear {
+	  width:100%;
+	  padding: 10px 10px 10px 10px;
+	  overflow: hidden;
+	}
+			
+	#footer {
+	  margin:10px 0px 0px 0px;
+	  padding:20px;
+	  background: #333;
+	  color:#fff;	
+	}
+	
+	#footer a:link {
+	  color:#fff;
+	}
+	
+	#footer a:visited {
+	  color:#fff;
+	}
+	
+	#footer a:hover {
+	  color:#fff;
+	}
+	
+	#footer a:active {
+	  color:#fff;
+	}

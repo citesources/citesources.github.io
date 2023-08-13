@@ -1,0 +1,162 @@
+    body {
+	  background: #e2e2d6;
+	  min-width:400px;
+	  max-width:1200px;
+	  padding:0;
+	  margin:0 auto 0;
+    }
+	
+	#overall {
+	  background: #f6f6f6;
+	}
+    
+	.header {
+	  background-image:url(Header.jpg);
+	  background-size: cover;
+	  background-position: 50% 50%;
+	  height:175px;
+	  margin:0px 0px 0px 0px;
+	  padding:0;
+	}
+ 
+ 	#headcontent1 {
+	  height:50px;
+	  width: 100%;
+	  background: #006f62;
+	  opacity: 0.75;
+      font: 17px Calibri;
+	  color:#fff;
+	  margin:0px;
+	  text-align:right;
+	  padding: 5px 10px 0px 0px;
+	}
+ 
+	#headcontent2 {
+	  height:125px;
+	  width: 100%;
+	  background: #006f62;
+	  opacity: 0.75;
+      font: 51px Calibri;
+	  color:#fff;
+	  padding:61px 0px 0px 20px;
+	  margin:0px;
+	}
+	
+	#rst { 
+      float: left;
+    }
+	
+	#bt{
+      float: right;
+	}	
+	
+	#main {
+      Padding: 10px;
+	}
+
+	.myselect {
+      background: #ecf8f6;
+      width: 100%;
+      font: 17px Calibri;
+      padding: 12px;
+      border: 1px solid #a2dbd2;
+      border-radius: 4px;
+    }
+
+    /*IE*/
+    .myselect::-ms-expand {
+      display: none;
+    }
+
+    .myselect:focus {
+      outline: 0;
+      border-color: #7bbaff;
+      box-shadow: 0 0 0 2px rgba(0,111,98,255);
+    }
+
+    h1 {
+      font-size: 1.8rem;
+    }
+	
+	* {
+	  box-sizing: border-box;
+    }
+    
+	.forminputs {
+      padding:10px 10px 10px 10px;
+      background-color: #f6f6f6;
+      overflow: hidden;
+    }
+	
+		#dateaccess {
+		width:100%;
+		padding: 10px 10px 10px 10px;
+		      overflow: hidden;
+	}
+	
+		.forminputs1 {
+	  float:left;
+      background-color: #f6f6f6;
+      overflow: hidden;
+	  width:32%;
+    }
+	
+			.forminputs2 {
+	  float:left;
+      background-color: #f6f6f6;
+      overflow: hidden;
+	  width:32%;
+	  margin: 0% 2% 0% 2%;
+    }
+
+	
+    input[type=text], textarea, select {
+      font: 17px Calibri;
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+	
+    input[type=button]{ 
+      font: 17px Calibri;
+      width: auto;
+      float: right;
+      cursor: pointer;
+      padding: 7px;
+    }
+	
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(3.5); /* IE */
+  -moz-transform: scale(3.5); /* FF */
+  -webkit-transform: scale(3.5); /* Safari and Chrome */
+  -o-transform: scale(3.5); /* Opera */
+  transform: scale(3.5);
+  margin: 10px;
+}
+			
+	#footer {
+	  margin:10px 0px 0px 0px;
+	  padding:20px;
+	  background: #333;
+	  color:#fff;	
+	}
+	
+	#footer a:link {
+	  color:#fff;
+	}
+	
+	#footer a:visited {
+	  color:#fff;
+	}
+	
+	#footer a:hover {
+	  color:#fff;
+	}
+	
+	#footer a:active {
+	  color:#fff;
+	}
